@@ -5,14 +5,14 @@ function dwarfRollCall(dwarves) {
   } return array.join("");
 }
 
-function summonCaptainPlanet(planteerCalls) {
+function summonCaptainPlanet(planeteerCalls) {
   var array = [];
-  for (var i = 0; i < planteerCalls.length; i++) {
+  for (var i = 0; i < planeteerCalls.length; i++) {
     array.push(`${planteerCalls[i].toUpperCase()}!`);
   } return array;
 }
 
-function longPlanteerCalls(calls) {
+function longPlaneteerCalls(calls) {
   if (calls.length > 4) {
     return `true`;
   } else {

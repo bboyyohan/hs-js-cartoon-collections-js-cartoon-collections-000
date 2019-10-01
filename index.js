@@ -8,6 +8,6 @@ function dwarfRollCall(dwarves) {
 function summonCaptainPlanet(planteerCalls) {
   var array = [];
   for (var i = 0; i < planteerCalls.length; i++) {
-    array.push(`${planteerCalls[i].toUpperCase}!`);
+    array.push(`${planteerCalls[i].toUpperCase()}!`);
   } return array;
 }

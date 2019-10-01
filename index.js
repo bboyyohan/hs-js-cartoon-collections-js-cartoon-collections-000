@@ -22,7 +22,7 @@ function longPlaneteerCalls(calls) {
 
 function findTheCheese(food) {
  for (var i = 0; i < food.length; i++) {
-   if (food === "cheddar" || food === "gouda" || food === "camembert") {
+   if (food[i] === "cheddar" || food[i] === "gouda" || food[i] === "camembert") {
      return food[i];
    } 
  } return "no cheese!"

@@ -24,9 +24,9 @@ function findTheCheese(food) {
  for (var i = 0; i < food.length; i++) {
    if (food[i] === "cheddar" || food[i] === "gouda" || food[i] === "camembert") {
      return food[i];
-   } 
+   } else {
  } return "no cheese!"
 }
-  
+}
   
   

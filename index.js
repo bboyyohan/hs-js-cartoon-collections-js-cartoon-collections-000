@@ -20,7 +20,8 @@ function longPlaneteerCalls(calls) {
   }
 }
 
-function findTheCheese(cheese) {
+function findTheCheese(food) {
   var array = [];
+  
   
 }

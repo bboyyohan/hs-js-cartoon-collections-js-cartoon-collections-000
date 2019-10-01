@@ -21,5 +21,6 @@ function longPlaneteerCalls(calls) {
 }
 
 function findTheCheese(cheese) {
+  var array = [];
   
 }

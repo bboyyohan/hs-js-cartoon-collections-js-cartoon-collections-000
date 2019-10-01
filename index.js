@@ -21,7 +21,11 @@ function longPlaneteerCalls(calls) {
 }
 
 function findTheCheese(food) {
-  while (food === cheddar || food === gouda || food === camembert) {
+ for (var i = 0; i < food.length; i++) {
+   if (food === "cheddar" || food === "gouda" || food === "camembert") {
+     
+   }
+ }
   } 
   
   

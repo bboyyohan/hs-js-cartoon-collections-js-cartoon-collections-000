@@ -21,7 +21,8 @@ function longPlaneteerCalls(calls) {
 }
 
 function findTheCheese(food) {
-  var array = [];
+  while (food === cheddar || food === gouda || food === camembert) {
+  } 
   
   
 }

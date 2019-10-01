@@ -13,5 +13,9 @@ function summonCaptainPlanet(planteerCalls) {
 }
 
 function longPlanteerCalls(calls) {
-  
+  if (calls.length > 4) {
+    return `true`;
+  } else {
+    return `false`;
+  }
 }

@@ -11,3 +11,7 @@ function summonCaptainPlanet(planteerCalls) {
     array.push(`${planteerCalls[i].toUpperCase()}!`);
   } return array;
 }
+
+function longPlanteerCalls(calls) {
+  
+}
